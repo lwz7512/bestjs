@@ -1,4 +1,4 @@
-<img src="assets/images/fabio-oyXis2kALVg-md.jpg">
+<img src="assets/images/fabio-oyXis2kALVg-center-md.jpg">
 
 BestJS.solutions
 ------------------------------
