@@ -75,40 +75,135 @@ available calendar components are:
 
 ### #3. What is the best map library in javascript?
 
+Available map library are:
 
-available map library are:
+- [mapbox](https://www.mapbox.com/), [react-map-gl](https://github.com/visgl/react-map-gl)
+- [Openlayer](https://openlayers.org/)
+- [leaflet](https://leafletjs.com/)
 
-- mapbox, react-map-gl
-- openlayer
-- leaflet
-
-...
-
-### #4. What is the best form creation & validity library?
+Comparision:
 
 ...
 
-### #5. ...
+### #4. What is the best form creation & validity library in ReactJS?
+
+Challenge: create form in reactjs could be cubersome if you choosing manage form state mannually.
+
+Solution:
+
+[Formik](https://formik.org/)
+
+```
+Build forms in React, without the tears
+```
+
+### #5. What is the best javascript tutorials site up to date and modern?
+
+[JAVASCRIPT.INFO](https://javascript.info/)
+
+### #6. What is the best open source Firebase alternative?
+
+- [Appwrite](https://appwrite.io/)
+- [Supabase](https://supabase.com/)
+- [Parse](https://parseplatform.org/)
+
+### #7. What is the best open source Headless CMS 
+
+[strapi](https://strapi.io/)
+
+### #8. What is the best open-source Shopify alternative ?
+
+[medusa](https://medusajs.com/)
+
+### #9. What is the best Nodejs ORM framework?
+
+[Prisma](https://www.prisma.io/)
+
+### #10. What is the best javascript 2D game engine?
+
+[phaser](https://phaser.io/)
+
+### #11. What is the best javascript code style?
+
+[Clean code javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+
+### #11. What is the best ... ?
 
 ...
 
-### #6. ...
+### #12. What is the best ... ?
 
 ...
 
-### #7. ...
+### #13. What is the best ... ?
 
 ...
 
-### #8. ...
+### #14. What is the best ... ?
 
 ...
 
-### #9. ...
+### #15. What is the best ... ?
 
 ...
 
-### #10. ...
+### #16. What is the best ... ?
+
+...
+
+### #17. What is the best ... ?
+
+...
+
+### #18. What is the best ... ?
+
+...
+
+### #19. What is the best ... ?
+
+...
+
+### #20. What is the best ... ?
+
+...
+
+### #21. What is the best ... ?
+
+...
+
+### #22. What is the best ... ?
+
+...
+
+### #23. What is the best ... ?
+
+...
+
+### #24. What is the best ... ?
+
+...
+
+### #25. What is the best ... ?
+
+...
+
+### #26. What is the best ... ?
+
+...
+
+### #27. What is the best ... ?
+
+...
+
+### #28. What is the best ... ?
+
+...
+
+### #29. What is the best ... ?
+
+...
+
+### #30. What is the best ... ?
 
 ...
 
