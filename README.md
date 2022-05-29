@@ -34,7 +34,7 @@ Challenge: html string may invalid or unclosed to parse directly unless seversid
 
 Snippet:
 
-```
+```javascript
 import renderHTML from 'react-render-html'
 
 export default function parseValidHtmlString(string) {
@@ -54,7 +54,7 @@ export default function parseValidHtmlString(string) {
 
 Usage:
 
-```
+```jsx
 <div>{parseValidHtmlString(htmlString)}</div>
 ```
 
