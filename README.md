@@ -1,10 +1,15 @@
+<img src="assets/images/fabio-oyXis2kALVg-md.jpg">
+
 BestJS.solutions
 ------------------------------
 
 @2022/05/28
 
-
 > Tiny solutions for Javascript development from real projects.
+
+Hero image credit to [fabio](https://unsplash.com/photos/oyXis2kALVg).
+
+Contributions(PR, Issue) to this repo are welcome!
 
 
 ## Origin
@@ -21,7 +26,7 @@ each solution is expected to include:
 - Code snippte
 
 
-### 1. How to render html in Reactjs safely
+### #1. How to render html in Reactjs safely
 
 
 Challenge: html string may invalid or unclosed to parse directly unless severside sanitized.
@@ -57,7 +62,7 @@ Usage:
 Created @2022/05/12
 
 
-### 2. What is the best calendar component in ReactJS?
+### #2. What is the best calendar component in ReactJS?
 
 
 available calendar components are:
@@ -68,7 +73,7 @@ available calendar components are:
 
 ...
 
-### 3. What is the best map library in javascript?
+### #3. What is the best map library in javascript?
 
 
 available map library are:
@@ -79,31 +84,31 @@ available map library are:
 
 ...
 
-### 4. What is the best form creation & validity library?
+### #4. What is the best form creation & validity library?
 
 ...
 
-### 5. ...
+### #5. ...
 
 ...
 
-### 6. ...
+### #6. ...
 
 ...
 
-### 7. ...
+### #7. ...
 
 ...
 
-### 8. ...
+### #8. ...
 
 ...
 
-### 9. ...
+### #9. ...
 
 ...
 
-### 10. ...
+### #10. ...
 
 ...
 
