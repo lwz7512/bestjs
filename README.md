@@ -97,79 +97,197 @@ Solution:
 Build forms in React, without the tears
 ```
 
+along with a good partner for validation schema definition with [Yup](https://github.com/jquense/yup).
+
 ### #5. What is the best javascript tutorials site up to date and modern?
 
 [JAVASCRIPT.INFO](https://javascript.info/)
 
-### #6. What is the best open source Firebase alternative?
+### #6. What is the best ReactJS tutorials for free?
+
+[30 Days of React](https://github.com/Asabeneh/30-Days-Of-React)
+
+### #7. What is the best open source Firebase alternative?
 
 - [Appwrite](https://appwrite.io/)
 - [Supabase](https://supabase.com/)
 - [Parse](https://parseplatform.org/)
 
-### #7. What is the best open source Headless CMS 
+### #8. What is the best open source Headless CMS 
 
-[strapi](https://strapi.io/)
+- [strapi](https://strapi.io/)
+- [payload](https://github.com/payloadcms/payload)
 
-### #8. What is the best open-source Shopify alternative ?
+### #9. What is the best open-source Shopify alternative ?
 
 [medusa](https://medusajs.com/)
 
-### #9. What is the best Nodejs ORM framework?
+### #10. What is the best Nodejs ORM framework?
 
 [Prisma](https://www.prisma.io/)
 
-### #10. What is the best javascript 2D game engine?
+### #11. What is the best javascript 2D game engine?
 
 [phaser](https://phaser.io/)
 
-### #11. What is the best javascript code style?
+### #12. What is the best javascript code style?
 
 [Clean code javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
-### #11. What is the best ... ?
+### #13. What is the best svg image embedding solution in ReactJS ?
 
-...
+in package.json:
 
-### #12. What is the best ... ?
+```json
+"devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.2"
+}
+```
 
-...
+in YourComponent.js file:
 
-### #13. What is the best ... ?
+```
+import { ReactComponent as CalendarIcon } from '../../assets/icons/calendar.svg'
+```
 
-...
+### #14. What is the best way to detect view in viewport in ReactJS ?
 
-### #14. What is the best ... ?
+Use Case:
 
-...
+Video playing is expected to pause while it is invisible on the screen.
 
-### #15. What is the best ... ?
+Solution:
 
-...
+[react-in-viewport](https://github.com/roderickhsiao/react-in-viewport)
 
-### #16. What is the best ... ?
+Usage:
 
-...
+```
+import handleViewport from 'react-in-viewport'
 
-### #17. What is the best ... ?
+const AnywhereVideoBlock = ({inViewport, ...}) => ()
 
-...
+const AnywhereVideo = handleViewport(AnywhereVideoBlock)
 
-### #18. What is the best ... ?
+export default AnywhereVideo
 
-...
+```
 
-### #19. What is the best ... ?
+### #15. What is the best slider or carousel component in ReactJS ?
 
-...
+[React Slick](https://react-slick.neostack.com/)
 
-### #20. What is the best ... ?
+### #16. What is the best modal solution in ReactJS ?
 
-...
+[react-modal](https://github.com/reactjs/react-modal)
 
-### #21. What is the best ... ?
+### #17. What is the best click away handler wrapper in ReactJS ?
 
-...
+Solution one:
+
+```jsx
+import React, { useEffect, useRef } from 'react'
+
+const ClickAwayHandler = ({ handleClickAway, classNames, children }) => {
+  const ref = useRef(null)
+
+  useEffect(() => {
+    function handleOutSideClick(e) {
+      if (!ref.current || !ref.current.contains(e.target)) {
+        handleClickAway()
+      }
+    }
+
+    function handleEscKey(e) {
+      if (e.keyCode === 27) {
+        handleClickAway()
+      }
+    }
+
+    window.addEventListener('click', handleOutSideClick)
+    window.addEventListener('keydown', handleEscKey)
+
+    return () => {
+      window.removeEventListener('click', handleOutSideClick)
+      window.removeEventListener('keydown', handleEscKey)
+    }
+  })
+
+  return (
+    <div className={classNames} ref={ref}>
+      {children}
+    </div>
+  )
+}
+
+export default ClickAwayHandler
+```
+
+### #18. What is the best hover away handler wrapper in ReactJS ?
+
+Solution one:
+
+```jsx
+import React, { useEffect, useRef } from 'react'
+
+const HoverAwayHandler = ({ handleHoverAway, classNames, children }) => {
+  const ref = useRef(null)
+
+  useEffect(() => {
+    function handleOutSideClick(e) {
+      if (!ref.current || !ref.current.contains(e.target)) {
+        handleHoverAway()
+      }
+    }
+
+    function handleEscKey(e) {
+      if (e.keyCode === 27) {
+        handleHoverAway()
+      }
+    }
+
+    window.addEventListener('mouseout', handleOutSideClick)
+    window.addEventListener('keydown', handleEscKey)
+
+    return () => {
+      window.removeEventListener('mouseout', handleOutSideClick)
+      window.removeEventListener('keydown', handleEscKey)
+    }
+  })
+
+  return (
+    <div className={classNames} ref={ref}>
+      {children}
+    </div>
+  )
+}
+
+export default HoverAwayHandler
+```
+
+### #19. What is the best way to safely and dynamically import component in Next.js ?
+
+```
+const layoutName = 'YourComponentFileName'
+
+const errorInfo = () => <p>{layoutName}.js not found</p>
+// safe way to load a component at runtime
+// https://github.com/vercel/next.js/issues/7480
+const LayoutComponent = dynamic(
+  () => import(`src/components/flex-layouts/${layoutName}.js`).catch(() => errorInfo)
+)
+
+return (<LayoutComponent />)
+```
+
+### #20. What is the best input format library ?
+
+[Cleave.js](https://nosir.github.io/cleave.js/)
+
+### #21. What is the best Tailwind CSS open source components ?
+
+- [HyperUI](https://www.hyperui.dev/)
+- [daisyUI](https://daisyui.com/)
 
 ### #22. What is the best ... ?
 
@@ -204,6 +322,14 @@ Build forms in React, without the tears
 ...
 
 ### #30. What is the best ... ?
+
+...
+
+### 31. What is the best ... ?
+
+...
+
+### #32. What is the best ... ?
 
 ...
 
