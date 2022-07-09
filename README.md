@@ -67,9 +67,10 @@ Created @2022/05/12
 
 available calendar components are:
 
-- react-dates
-- react-datepicker
-- react-day-picker
+- [react-dates](https://github.com/react-dates/react-dates)
+- [react-datepicker](https://reactdatepicker.com/)
+- [react-day-picker](https://react-day-picker.js.org/)
+- [react-big-calendar](https://github.com/jquense/react-big-calendar)
 
 ...
 
@@ -129,6 +130,7 @@ along with a good partner for validation schema definition with [Yup](https://gi
 ### #11. What is the best javascript 2D game engine?
 
 [phaser](https://phaser.io/)
+[melonJS](https://melonjs.org/)
 
 ### #12. What is the best javascript code style?
 
@@ -284,26 +286,26 @@ return (<LayoutComponent />)
 
 [Cleave.js](https://nosir.github.io/cleave.js/)
 
-### #21. What is the best Tailwind CSS open source components ?
+### #21. What is the best open source components using Tailwind CSS?
 
 - [HyperUI](https://www.hyperui.dev/)
 - [daisyUI](https://daisyui.com/)
 
-### #22. What is the best ... ?
+### #22. What is the best ReactJS boilerplate project ?
 
-...
+[Bulletproof React](https://github.com/alan2207/bulletproof-react)
 
-### #23. What is the best ... ?
+### #23. What is the best Electron boilerplate project using ReactJS as frontend?
 
-...
+[Electron React Boilerplate](https://electron-react-boilerplate.js.org/)
 
-### #24. What is the best ... ?
+### #24. What is the best web version code editor which is up to date and modern?
 
-...
+[Monaco Editor](https://microsoft.github.io/monaco-editor/)
 
-### #25. What is the best ... ?
+### #25. What is the best rich text editor on web based on ReactJS ?
 
-...
+[lexical](https://lexical.dev/)
 
 ### #26. What is the best ... ?
 
